@@ -1,0 +1,15 @@
+packages:
+  "framer-motion": "For premium scroll animations, stagger effects, and page transitions"
+  "clsx": "For conditional class names"
+  "tailwind-merge": "For merging tailwind classes safely"
+  "@radix-ui/react-slot": "For reusable accessible components"
+
+images:
+  - path: "artifacts/portfolio/public/images/hero-bg.png"
+    description: "Abstract dark background with subtle glowing indigo and deep blue geometric waves, minimal, professional, dark mode, data science and AI theme"
+    aspect_ratio: "16:9"
+
+notes:
+  - This is a single-page static portfolio, no backend API routes are needed.
+  - Smooth scrolling is handled via native CSS scroll-behavior.
+  - Dark mode is set as the default base theme.
